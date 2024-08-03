@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f7be27;
+}
+
+.nav_bg {
+    background: #2e2d2dda;
+}
+
+.links_style {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.125rem ;
+    font-weight: 500;
+    color: #eeeaea;
+}
+
+.icon_link {
+    color: #eeeaea;
+}
+
+
