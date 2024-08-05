@@ -9,18 +9,18 @@ import logo from "../../assets/Logo/logo_inmobiliaria.png";
 function App() {
   return (
     <>
-      <Navbar expand="lg" data-bs-theme="dark" className="nav_bg">
+      <Navbar expand="lg" data-bs-theme="dark" className="nav_bg" fixed="top">
       <Navbar.Brand href="#home" className="py-0">
         <img
           src={logo}
           width="55"
           height="55"
-          className="d-inline-block align-top ms-5"
+          className="d-inline-block align-top ms-4"
           alt="Logo"
         />
       </Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse>
+      <Navbar.Toggle className="me-2" />
+      <Navbar.Collapse className="py-3">
         <Nav className="mx-auto justify-content-center">
         <NavLink to="/Home" className="links_style ms-4">INCIO</NavLink>
           <NavLink to="/Alquileres" className="links_style ms-4">ALQUILERES</NavLink>
@@ -28,9 +28,9 @@ function App() {
           <NavLink to="/Contacto" className="links_style ms-4">CONTACTO</NavLink>
           <NavLink to="/Nosotros" className="links_style ms-4">NOSOTROS</NavLink>
         </Nav>
-        <Nav>
+        <Nav className="mt-xs-2">
           <NavLink href="#icon">
-          <PersonCircle className="icon_link fs-3 mx-3" />          
+          <PersonCircle className="icon_link fs-3 mx-3 ms-4" />          
           </NavLink>
         </Nav>
       </Navbar.Collapse>
