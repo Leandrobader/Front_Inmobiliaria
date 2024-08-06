@@ -1,0 +1,21 @@
+.carousel_bg {
+    height: 100vh;          
+}
+
+.slider1_bg {
+    background: url(https://i.ibb.co/85Bph7y/Slide-Landing-Pocito.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider2_bg {
+    background: url(https://i.ibb.co/VN7qDwD/home-bg-01a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider3_bg {
+    background: url(https://i.ibb.co/rQ1xY4g/bg-housinga.jpg);
+    background-size: cover;
+    background-position: center;
+}
